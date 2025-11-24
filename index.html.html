@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoltMat – Portable Charging Evolved</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #e2eeff, #fef6ff); color: #222; }
+    header { background: linear-gradient(90deg, #7bb0ff, #b58dff); color: white; padding: 20px; position: sticky; top: 0; z-index: 1000; }
+    nav { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; }
+    nav h1 { margin: 0; font-size: 2rem; font-weight: 800; }
+    nav a { color: white; text-decoration: none; font-weight: 600; margin-left: 20px; }
+    nav a:hover { text-decoration: underline; }
+    .hero { text-align: center; padding: 60px 20px; }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
+    .hero p { max-width: 700px; margin: 0 auto 20px; font-size: 1.2rem; line-height: 1.6; }
+    .hero button { padding: 16px 36px; font-size: 1.2rem; font-weight: 700; border: none; border-radius: 12px; background: #2f67ff; color: white; cursor: pointer; }
+    .hero button:hover { background: #1d4ed8; }
+    .section { max-width: 1000px; margin: 60px auto; padding: 30px; background: white; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .section h2 { text-align: center; color: #5a34d8; font-size: 2rem; margin-bottom: 20px; }
+    .section p { font-size: 1.1rem; line-height: 1.7; margin-bottom: 15px; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+    .card { background: #f9f9ff; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .card h3 { margin-top: 10px; font-size: 1.3rem; color: #333; }
+    .card p { font-size: 1rem; line-height: 1.5; }
+    .card img { width: 100%; border-radius: 12px; margin-bottom: 10px; }
+    .cta { text-align: center; margin: 60px 0; }
+    .cta button { padding: 16px 36px; font-size: 1.3rem; font-weight: 700; border: none; border-radius: 12px; background: #2f67ff; color: white; cursor: pointer; margin: 10px; }
+    .cta button:hover { background: #1d4ed8; transform: translateY(-2px); }
+    footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #555; }
+    #backToTop { display: none; position: fixed; bottom: 30px; right: 30px; z-index: 999; padding: 12px 20px; font-size: 1rem; font-weight: 600; border: none; border-radius: 8px; background: #2f67ff; color: white; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: 0.3s ease; }
+    #backToTop:hover { background: #1d4ed8; transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>VoltMat</h1>
+    <div>
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#touchscreen">Touchscreen</a>
+      <a href="#durability">Durability</a>
+      <a href="#extras">Extras</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+  </nav>
+  <p>Portable Charging Evolved</p>
+</header>
+
+<div class="hero" id="overview">
+  <h2>Meet VoltMat</h2>
+  <p>VoltMat is a foldable charging mat with a built-in touchscreen. It keeps your devices powered wherever life takes you. No messy cords, no outlet battles, and no dead batteries during class, study sessions, or sports practice.</p>
+  <button onclick="location.href='#features'">Explore Features</button>
+</div>
+
+<div class="section" id="features">
+  <h2>Features That Matter</h2>
+  <div class="card-grid">
+    <div class="card"><h3>Wireless Charging</h3><p>Supports Qi-enabled phones, earbuds, and more for cord-free convenience.</p></div>
+    <div class="card"><h3>USB-C Port</h3><p>For devices that still need a cable, VoltMat has you covered.</p></div>
+    <div class="card"><h3>Internal Battery</h3><p>Charge VoltMat ahead of time and take it anywhere, or plug it in when outlets are available.</p></div>
+    <div class="card"><h3>Touchscreen Control</h3><p>Monitor battery levels and prioritize power distribution with a simple tap.</p></div>
+    <div class="card"><h3>Foldable Design</h3><p>Compact and flexible, it folds like a notebook without damaging internal wiring.</p></div>
+  </div>
+</div>
+
+<div class="section" id="gallery">
+  <h2>Gallery</h2>
+  <div class="card-grid">
+    <div class="card">
+      <img src="voltmat-folded.png" alt="VoltMat folded view">
+      <p>VoltMat folded for portability</p>
+    </div>
+    <div class="card">
+      <img src="voltmat-laidout.png" alt="VoltMat laid out with touchscreen">
+      <p>VoltMat laid out with touchscreen display</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="touchscreen">
+  <h2>Smart Touchscreen</h2>
+  <p>The built-in touchscreen is more than a simple display. It lets you control how much power goes to each device, shows the battery status of VoltMat itself, and provides extras like weather updates, time display, and simple games to pass the time between classes.</p>
+</div>
+
+<div class="section" id="durability">
+  <h2>Durability You Can Trust</h2>
+  <p>VoltMat is built with a tough, flexible rubber exterior that resists wear and tear. The reinforced touchscreen is designed to withstand daily use without cracking. Fold it into a small rectangle and toss it in your backpack. It is built to handle the bumps of student life.</p>
+</div>
+
+<div class="section" id="extras">
+  <h2>Extras That Make Life Easier</h2>
+  <p>Beyond charging, VoltMat adds small conveniences. The touchscreen can show the time, weather, and even simple games. These extras make VoltMat feel personal and fun, not just another tech accessory.</p>
+</div>
+
+<div class="section" id="comparison">
+  <h2>Why VoltMat is Better</h2>
+  <p>Traditional charging mats are limited. They break when bent, charge only one or two devices, and require constant access to a wall outlet. VoltMat solves all of this with flexibility, multiple charging options, a built-in battery, and touchscreen control. It is not just a charger. It is a portable charging station.</p>
+</div>
+
+<div class="section" id="pricing">
+  <h2>Pricing</h2>
+  <p>VoltMat is priced at <strong>$85</strong>. For college students, we are offering a limited-time discount of $20 off.
